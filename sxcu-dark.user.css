@@ -1,0 +1,48 @@
+/* ==UserStyle==
+@name           sxcu.net dark
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Dark theme for sxcu.net
+@author         mulle
+==/UserStyle== */
+@-moz-document domain("sxcu.net") {
+    :root {
+        font-size: 25px !important;
+        font-family: Arial, Helvetica, sans-serif !important;
+    }
+    
+    body {
+        background-color: #090909 !important;
+        font-family: inherit !important;
+        line-height: 1.6em !important;
+    }
+
+    .hero-body {
+        background-color: #090909 !important;
+        font-size: 1.2em !important;
+        line-height: 1.5em !important;
+        color: #FFF !important;
+    }
+    
+    .title:nth-child(1) {
+        text-align: center !important;
+    }
+    
+    .title {
+        font-size: 2.5em !important;
+    }
+    
+    center {
+        color: #FFF !important;
+        background-color: #151515 !important;
+        display: inline-block !important;
+        padding: 1rem 1rem !important;
+        margin: 1em auto 1.5em;
+        border: none !important;
+        border-radius: .3rem !important;
+    }
+    
+    .subtitle {
+        margin-bottom: 4em !important;
+    }
+}
