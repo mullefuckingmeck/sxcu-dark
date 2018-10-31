@@ -32,6 +32,10 @@
         font-size: 2.5em !important;
     }
     
+    code {
+        background-color: #090909 !important;
+    }
+    
     center {
         color: #FFF !important;
         background-color: #151515 !important;
